@@ -1,14 +1,13 @@
-# BSV Desktop
+# DDID Desktop
 
-A cross-platform desktop wallet application for the BSV Blockchain, built with Electron and Vite. BSV Desktop provides a complete wallet interface with support for both self-custody (local) and remote storage options.
+A cross-platform desktop wallet application for the individula and organizations particapting in the DDID Ecosystem, built with Electron and Vite. DDID Desktop provides a complete wallet interface with support for both self-custody (local) and remote storage options.
 
 The default configuration is for locally stored transactions and metadata, entirely self custody.
 
-> **Note**: This project was migrated from Tauri to Electron to enable local database storage. See [PORTED.md](PORTED.md) for the full migration story.
 
-## What is BSV Desktop?
+## What is DDID Desktop?
 
-BSV Desktop is a feature-rich Bitcoin SV wallet that runs on macOS, Windows, and Linux. It provides:
+DDID Desktop is a feature-rich Bitcoin SV wallet that runs on macOS, Windows, and Linux. It provides:
 
 - **🔐 Self-Custody Mode** - Full control with local key management and SQLite storage
 - **☁️ Remote Storage Mode** - WAB (Wallet Authentication Backend) integration with remote storage
@@ -21,7 +20,7 @@ BSV Desktop is a feature-rich Bitcoin SV wallet that runs on macOS, Windows, and
 
 ## Architecture
 
-BSV Desktop consists of three main components:
+DDID Desktop consists of three main components:
 
 ### 1. **React UI Library** (`src/lib/`)
 Reusable React components and wallet logic:
@@ -109,7 +108,7 @@ Built packages will be in the `release/` directory with versioned filenames.
 ## Project Structure
 
 ```
-bsv-desktop/
+ddid-desktop/
 ├── src/lib/                      # React UI library (reusable)
 │   ├── WalletContext.tsx         # Wallet state and initialization
 │   ├── UserContext.tsx           # App metadata and native handlers
